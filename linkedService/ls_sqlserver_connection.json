@@ -1,0 +1,16 @@
+{
+	"name": "ls_sqlserver_connection",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=DESKTOP-TJV7QHC;initial catalog=AdventureWorks2016;user id=JuanC",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI3MGU2YjIyMi00MmVhLTQxYTMtYmIxZC0zZmRjNWFhNTY1NmYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "itsqlserverlocalhost",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"name": "jramcovid-reporting-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "679f1e52-5e73-426e-825a-0c3f8c764669",
+		"tenantId": "81ab2ea7-f267-4ade-833c-783735faa922"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"name": "ls_jramablob_covidreportingdl",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://jramcovidreportingdl.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEQ2NTI3RkFDLTM1MzUtNDUxOS04RENCLTRFRTEzMzJFQzZFRF9mZWI2YjIwYy1iOTZmLTQzMDItOTg4Ny1iOGExYjg0Y2Y0NTYiDQp9"
+		}
+	}
+}

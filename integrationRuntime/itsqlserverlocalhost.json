@@ -1,0 +1,7 @@
+{
+	"name": "itsqlserverlocalhost",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "Self-Hosted integration runtime to DESKTOP-TJV7QHC"
+	}
+}
