@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "jramcovid-reporting-adf"
+		},
+		"ls_db_covid_cluster_accessToken": {
+			"value": ""
+		},
+		"ls_jramablob_covidreportingdl_accountKey": {
+			"value": ""
+		},
+		"ls_jramablob_covidreportingsa_connectionString": {
+			"value": ""
+		},
+		"ls_sqlserver_connection_connectionString": {
+			"value": ""
+		},
+		"ls_http_opendata_ecdc_europa_eu_properties_typeProperties_url": {
+			"value": "@{linkedService().sourceBaseURL}"
+		},
+		"ls_jramablob_covidreportingdl_properties_typeProperties_url": {
+			"value": "https://jramcovidreportingdl.dfs.core.windows.net/"
+		},
+		"tr_jram_ingest_population_data_properties_typeProperties_scope": {
+			"value": "/subscriptions/25f1f7a4-eecd-4058-b761-b8ce5708e3b1/resourceGroups/jramcovid-reporting-rg/providers/Microsoft.Storage/storageAccounts/jramcovidreportingsa"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
